@@ -6,10 +6,8 @@ import HeaderAsideFooterLayout from './layouts/HeaderAsideFooterLayout';
 import Home from './pages/Home';
 import FloaterOcean from './pages/FloaterOcean';
 import MyFloater from './pages/MyFloater';
-import Intro from './pages/Intro';
 import SendMsg from './pages/SendMsg';
 import NotFound from './pages/NotFound';
-
 
 const routerConfig = [
   {
@@ -26,11 +24,6 @@ const routerConfig = [
     path: '/MyFloater',
     layout: HeaderAsideFooterLayout,
     component: MyFloater,
-  },
-  {
-    path: '/Intro',
-    layout: HeaderAsideFooterLayout,
-    component: Intro,
   },
   {
     path: '/SendMsg',

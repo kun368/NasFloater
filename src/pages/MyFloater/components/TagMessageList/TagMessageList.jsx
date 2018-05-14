@@ -49,6 +49,7 @@ export default class TagMessageList extends Component {
           dataSourceSend: item.sended,
           dataSourceRecv: item.recved
         });
+        Toast.success("获取漂流瓶数据成功");
       },
     });
   }

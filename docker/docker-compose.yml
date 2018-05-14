@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  nas-floater-dapp-server:
+    image: kun368/nas-floater:master
+    restart: always
+    ports:
+      - "8120:8080"

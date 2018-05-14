@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ProductInfo from './components/ProductInfo/ProductInfo';
-import ReleaseIntro from './components/ReleaseIntro/ReleaseIntro';
+import SimpleTestimonial from './components/SimpleTestimonial/SimpleTestimonial';
 
 export default class Home extends Component {
   static displayName = 'Home';
@@ -13,7 +13,7 @@ export default class Home extends Component {
   render() {
     return (
       <div className="home-page">
-        <ReleaseIntro/>
+        <SimpleTestimonial/>
         <ProductInfo/>
       </div>
     );

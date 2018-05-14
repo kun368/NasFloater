@@ -5,34 +5,34 @@ const { Row, Col } = Grid;
 
 const dataSource = [
   {
-    title: '主页背书',
-    pic: 'https://img.alicdn.com/tfs/TB1i7OMif6H8KJjSspmXXb2WXXa-210-210.png',
-    desc: '这里填写具体的细节描述',
-  },
-  {
-    title: '频道入驻',
-    pic: 'https://img.alicdn.com/tfs/TB1wA5KinvI8KJjSspjXXcgjXXa-210-210.png',
-    desc: '这里填写具体的细节描述',
-  },
-  {
-    title: '商业扶持',
-    pic: 'https://img.alicdn.com/tfs/TB1laelicjI8KJjSsppXXXbyVXa-210-210.png',
-    desc: '这里填写具体的细节描述',
-  },
-  {
-    title: '专属管家',
-    pic: 'https://img.alicdn.com/tfs/TB1EfLYfOqAXuNjy1XdXXaYcVXa-207-210.png',
-    desc: '这里填写具体的细节描述',
-  },
-  {
-    title: '资源优选',
-    pic: 'https://img.alicdn.com/tfs/TB1a31mignH8KJjSspcXXb3QFXa-210-210.png',
-    desc: '这里填写具体的细节描述',
-  },
-  {
-    title: '快捷搜索',
+    title: '漂流世界',
     pic: 'https://img.alicdn.com/tfs/TB1ALecicrI8KJjy0FhXXbfnpXa-210-210.png',
-    desc: '这里填写具体的细节描述',
+    desc: '穿越广阔大海 探索未知领域',
+  },
+  {
+    title: '海量会员',
+    pic: 'https://img.alicdn.com/tfs/TB1i7OMif6H8KJjSspmXXb2WXXa-210-210.png',
+    desc: '每颗真诚的心都在等待您的漂流瓶',
+  },
+  {
+    title: '相信缘分',
+    pic: 'https://img.alicdn.com/tfs/TB1wA5KinvI8KJjSspjXXcgjXXa-210-210.png',
+    desc: '根据宣言找到共同兴趣爱好',
+  },
+  {
+    title: '区块链',
+    pic: 'https://img.alicdn.com/tfs/TB1laelicjI8KJjSsppXXXbyVXa-210-210.png',
+    desc: '基于NAS智能合约 放心使用',
+  },
+  {
+    title: '见证奇迹',
+    pic: 'https://img.alicdn.com/tfs/TB1EfLYfOqAXuNjy1XdXXaYcVXa-207-210.png',
+    desc: '告白失败？十动然拒？这里不会发生！',
+  },
+  {
+    title: '浪漫社交',
+    pic: 'https://img.alicdn.com/tfs/TB1a31mignH8KJjSspcXXb3QFXa-210-210.png',
+    desc: '在星云漂流瓶上更有浪漫的感觉',
   },
 ];
 
