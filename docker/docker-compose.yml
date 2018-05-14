@@ -5,4 +5,4 @@ services:
     image: kun368/nas-floater:master
     restart: always
     ports:
-      - "8120:8080"
+      - "8120:80"

@@ -24,7 +24,7 @@
 
 ![](http://zzkun-tuchuang.oss-cn-hangzhou.aliyuncs.com/18-5-14/44719508.jpg)
 
-## 合约
+## Nebulas智能合约
 
 ```javascript
 'use strict';
