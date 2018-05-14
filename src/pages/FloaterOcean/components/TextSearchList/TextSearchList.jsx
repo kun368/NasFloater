@@ -3,7 +3,7 @@ import IceContainer from '@icedesign/container';
 import { Search, Grid, Feedback } from '@icedesign/base';
 
 const Toast = Feedback.toast;
-const dappAddress = "n22ynDP76M2Unb4K3NdWYf6fPE8JuvZDjky";
+const dappAddress = "n1p2MydveNYK2QBgoyxwhPQjbSqQ1PPb5Gb";
 
 const { Row, Col } = Grid;
 

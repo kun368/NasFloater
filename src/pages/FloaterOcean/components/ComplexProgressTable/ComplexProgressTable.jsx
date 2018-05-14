@@ -8,14 +8,14 @@ import Clipboard from 'clipboard';
 
 const Toast = Feedback.toast;
 
-const dappAddress = "n22ynDP76M2Unb4K3NdWYf6fPE8JuvZDjky";
-const userAddress = "n1Vx6iSFM12aJWZw7Q9nTNsDWaX16kXrtsG";
+const dappAddress = "n1p2MydveNYK2QBgoyxwhPQjbSqQ1PPb5Gb";
+const userAddress = "n1ZTecB8Tpb7X7LBL7j3ZcGLVvMrXmVfLfy";
 
 
 @DataBinder({
   tableData: {
     // 详细请求配置请参见 https://github.com/axios/axios
-    url: 'https://testnet.nebulas.io/v1/user/call',
+    url: 'https://mainnet.nebulas.io/v1/user/call',
     method: 'post',
     headers: { 'content-type': 'application/json;charset=UTF-8' },
     data: {
@@ -74,29 +74,6 @@ export default class ComplexProgressTable extends Component {
 
   fetchData = () => {
     this.props.updateBindingData('tableData');
-  };
-
-  editItem = (index, record) => {
-    EditDialog.show({
-      onClose: () => {
-        EditDialog.hide();
-      },
-      onCancel: () => {
-        EditDialog.hide();
-      },
-      onOk: (value) => {
-        // TODO: 更新接口，并重新获取数据
-        // this.props.updateBindingData('updateRow', {
-        //   method: 'post',
-        //   data: value
-        // }, () => {
-        //   this.fetchData();
-        // });
-        console.log('value', value);
-        EditDialog.hide();
-      },
-      value: record,
-    });
   };
 
   renderUpdateTime = (value, index, record) => {

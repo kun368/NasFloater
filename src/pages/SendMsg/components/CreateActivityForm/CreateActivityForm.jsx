@@ -41,7 +41,7 @@ const SwitchForForm = (props) => {
   );
 };
 
-const dappAddress = "n22ynDP76M2Unb4K3NdWYf6fPE8JuvZDjky";
+const dappAddress = "n1p2MydveNYK2QBgoyxwhPQjbSqQ1PPb5Gb";
 
 
 export default class CreateActivityForm extends Component {
